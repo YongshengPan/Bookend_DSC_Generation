@@ -100,7 +100,7 @@ class DataBase(object):
         self.imdb_valid_split = [imdb_dsc2, imdb_dsc2]
         self.imdb_train = self.imdb_train_split[0]
         self.imdb_valid = self.imdb_valid_split[0]
-        self.imdb_test = imdb_dsc3
+        self.imdb_test = imdb_dsc1
         print(len(self.imdb_train))
         print(len(self.imdb_test))
 
